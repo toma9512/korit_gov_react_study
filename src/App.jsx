@@ -2,6 +2,9 @@ import "./App.css";
 import Hook01 from "./ReactStudy/Hook01";
 import CountState from "./ReactStudy/Hook02/CountState";
 import Hook03 from "./ReactStudy/Hook03";
+import Hook04 from "./ReactStudy/Hook04";
+import Hook05 from "./ReactStudy/Hook05";
+import Hook06 from "./ReactStudy/Hook06";
 import React01 from "./ReactStudy/React01";
 import React02 from "./ReactStudy/React02";
 import React03 from "./ReactStudy/React03";
@@ -26,7 +29,10 @@ function App() {
             </React04> */}
             {/* <Hook01 /> */}
             {/* <CountState /> */}
-            <Hook03 />
+            {/* <Hook03 /> */}
+            {/* <Hook04 /> */}
+            {/* <Hook05 /> */}
+            <Hook06 />
         </>
     );
 }
