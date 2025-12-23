@@ -3,11 +3,15 @@ import Header from "../Header/Header";
 import * as s from "./styles";
 import React from "react";
 
-function Layout({ children }) {
+function Layout({ children, setSearchKeyword, filterMode, setFilterMode }) {
     return (
         <div css={s.layout}>
             <div css={s.container}>
-                <Header />
+                <Header
+                    setSearchKeyword={setSearchKeyword}
+                    filterMode={filterMode}
+                    setFilterMode={setFilterMode}
+                />
                 {children}
             </div>
         </div>
